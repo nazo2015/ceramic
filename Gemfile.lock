@@ -28,7 +28,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (5.0.0.3)
+    autoprefixer-rails (5.1.0)
       execjs
       json
     bootstrap-sass (3.3.3)
@@ -41,7 +41,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.8.0)
+    coffee-script-source (1.9.0)
     erubis (2.7.0)
     execjs (2.2.2)
     font-awesome-rails (4.3.0.0)

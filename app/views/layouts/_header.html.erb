@@ -9,12 +9,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home"><%=image_tag("https://dl.dropboxusercontent.com/s/li2i6k8k22porp6/NAZOx40.png?dl=0")%>
+                    <class="navbar-brand" rel="home" href="home" title="Buy Sell Rent Everyting">
+                    <img style="max-width:100px; margin-top: 5px;" src="https://dl.dropboxusercontent.com/s/li2i6k8k22porp6/NAZOx40.png?dl=0">
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"> <%= link_to "Home", pages_home_path %> </li>
+                    <li> <%= link_to "Home", pages_home_path %> </li>
                     <li> <%= link_to "About", pages_about_path %> </li>
                     <li> <%= link_to "Products", pages_products_path %> </li>
                     <li> <%= link_to "New", pages_new_path %> </li>
